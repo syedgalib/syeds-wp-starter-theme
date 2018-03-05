@@ -1,0 +1,118 @@
+/*==============================================
+ * Reset
+ ==============================================*/
+img {
+  max-width: 100%;
+}
+
+/*==============================================
+ * Layout || Section
+ ==============================================*/
+ .section {
+  padding: 5em 0 5em 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title {
+  text-transform: uppercase;
+}
+
+.section-excerpt {
+  margin: 25px auto 0;
+  width: 600px;
+  max-width: 100%;
+  color: gray;
+  line-height: 1.8em;
+  font-size: 1em;
+}
+.section-contents {}
+
+/*==============================================
+ * Layout || Footer
+ =============================================*/
+ .footer-section {
+  padding: 30px 0;
+  color: #fff;
+  background-color: #2b2b2b;
+}
+
+.copyright-section {
+  text-align: center;
+}
+
+.copyright-span {
+  color: blue;
+}
+
+/*==============================================
+ * Component || Default
+ ==============================================*/
+ 
+
+/*==============================================
+ * Widgets || 
+ =============================================*/
+
+/*==============================================
+ * Sidebar || Default
+ =============================================*/
+ .sidebar-widget:not(.widget_search) {
+  background-color: #fcfcfc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #dbdbdb;
+}
+
+.widget-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sidebar-widget ul {
+  margin: 20px 0;
+  padding: 0;
+}
+.sidebar-widget ul li {
+  margin-bottom: 15px;
+  list-style: none;
+  position: relative;
+  padding-left: 1.5em;
+}
+
+.sidebar-widget ul li:before {
+  content: '\f101';
+  font-family: FontAwesome;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+
+.sidebar-widget ul li ul {
+  margin: 5px 0;
+}
+
+.sidebar-widget ul li a {
+  display: inline-block;
+}
+.sidebar-widget ul li a span{}
+
+/*==============================================
+ * Sidebar || Footer Sidebar
+ =============================================*/
+ .footer-sidebar {}
+ .footer-widget {
+   margin-bottom: 20px;
+ }
+
+ .footer-widget:last-child {
+   margin-bottom: 0;
+ }
+
+ .footer-widget-title {
+   margin-bottom: 12px;
+ }
